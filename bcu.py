@@ -9,7 +9,7 @@ import os
 import pandas as pd
 import numpy as np
 import altair as alt
-from utils import SaveFeatures, GradCam, overlay_heatmap, process_image_for_gradcam, get_target_layer, generate_gradcam_visualization, display_gradcam_results, load_model, get_transform, predict_image
+from my_utils import SaveFeatures, GradCam, overlay_heatmap, process_image_for_gradcam, get_target_layer, generate_gradcam_visualization, display_gradcam_results, load_model, get_transform, predict_image
 
 # Layout and web app title
 st.title("A Breast Cancer Ultrasound Image Classifier developed by finetuning pretrained models")
