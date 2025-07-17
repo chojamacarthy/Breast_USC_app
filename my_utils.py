@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 # Load selected model
 @st.cache_resource
 def load_model(model_path):
-    model = torch.load(model_path, map_location=torch.device('cpu'))
+    model = torch.load(model_path, map_location=torch.device('cpu'), weigths_only=False)
     model.eval()
     return model
 
