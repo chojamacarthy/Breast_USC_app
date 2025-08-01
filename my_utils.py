@@ -218,5 +218,4 @@ def display_gradcam_results(original_img, overlayed_img):
         **Grad-CAM interpretation:**
         - Red/Yellow areas: Regions that strongly influenced the prediction
         - Blue areas: Regions that had little influence
-        - The heatmap shows where the model focused on to make its prediction.
-        """)
+        - The heat
