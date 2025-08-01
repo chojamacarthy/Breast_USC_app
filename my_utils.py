@@ -214,8 +214,9 @@ def display_gradcam_results(original_img, overlayed_img):
             st.image(overlayed_img, use_container_width=True)
         
         # Add explanation
-        st.info("""
-        **Grad-CAM interpretation:**
-        - Red/Yellow areas: Regions that strongly influenced the prediction
-        - Blue areas: Regions that had little influence
-        - The heat
+        st.info(
+        "**Grad-CAM interpretation:**\n"
+        "- Red/Yellow areas: Regions that strongly influenced the prediction\n"
+        "- Blue areas: Regions that had little influence\n"
+        "- The heatmap shows where the model focused on to make its prediction.\n"
+        )
