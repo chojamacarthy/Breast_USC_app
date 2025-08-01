@@ -5,3 +5,5 @@ This web application was developed as a tool to visualise the work carried out a
 To get an overview of the datasets used, the model training routines, and the steps carried out for explainable AI such as GRAD-CAM, please visit the below repository.
 
 https://github.com/chojamacarthy/Breast-Ultrasound-Classifier
+
+For any issues, contact Choja Macarthy - chojamacarthy30@gmail.com
